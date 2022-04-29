@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA75DA6C2817FF9D0098CE95 /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA6B2817FF9D0098CE95 /* Reflection.swift */; };
+		FA75DA6E2818324D0098CE95 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA75DA6D2818324D0098CE95 /* Storyboard.storyboard */; };
+		FA75DA7028183C490098CE95 /* ReflectionDetailAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA6F28183C490098CE95 /* ReflectionDetailAddView.swift */; };
+		FA75DA7428185C340098CE95 /* HomeScreenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA7328185C340098CE95 /* HomeScreenPage.swift */; };
+		FA75DA76281862A60098CE95 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA75281862A60098CE95 /* TaskListView.swift */; };
+		FA75DA78281863060098CE95 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA77281863060098CE95 /* DatePicker.swift */; };
+		FA75DA7A2818FE280098CE95 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA792818FE280098CE95 /* Task.swift */; };
+		FA75DA7D281AF1EA0098CE95 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA7C281AF1EA0098CE95 /* TaskDetailView.swift */; };
+		FA75DA7F281AF2170098CE95 /* TaskDetailAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75DA7E281AF2170098CE95 /* TaskDetailAddView.swift */; };
 		FADA945728167621008BDA5B /* LearnAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA945628167621008BDA5B /* LearnAppApp.swift */; };
 		FADA945928167621008BDA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA945828167621008BDA5B /* ContentView.swift */; };
 		FADA945B28167623008BDA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA945A28167623008BDA5B /* Assets.xcassets */; };
@@ -14,6 +23,10 @@
 		FADA946828167623008BDA5B /* LearnAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA946728167623008BDA5B /* LearnAppTests.swift */; };
 		FADA947228167623008BDA5B /* LearnAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA947128167623008BDA5B /* LearnAppUITests.swift */; };
 		FADA947428167623008BDA5B /* LearnAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA947328167623008BDA5B /* LearnAppUITestsLaunchTests.swift */; };
+		FADA94812816992C008BDA5B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA94802816992C008BDA5B /* File.swift */; };
+		FADA94852817D785008BDA5B /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA94842817D785008BDA5B /* ReflectionView.swift */; };
+		FADA94872817EDF3008BDA5B /* ReflectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA94862817EDF3008BDA5B /* ReflectionDetailView.swift */; };
+		FADA94892817EE24008BDA5B /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA94882817EE24008BDA5B /* struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA75DA6B2817FF9D0098CE95 /* Reflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
+		FA75DA6D2818324D0098CE95 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FA75DA6F28183C490098CE95 /* ReflectionDetailAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionDetailAddView.swift; sourceTree = "<group>"; };
+		FA75DA7328185C340098CE95 /* HomeScreenPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenPage.swift; sourceTree = "<group>"; };
+		FA75DA75281862A60098CE95 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		FA75DA77281863060098CE95 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		FA75DA792818FE280098CE95 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FA75DA7C281AF1EA0098CE95 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		FA75DA7E281AF2170098CE95 /* TaskDetailAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailAddView.swift; sourceTree = "<group>"; };
 		FADA945328167621008BDA5B /* LearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA945628167621008BDA5B /* LearnAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAppApp.swift; sourceTree = "<group>"; };
 		FADA945828167621008BDA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +66,10 @@
 		FADA946D28167623008BDA5B /* LearnAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA947128167623008BDA5B /* LearnAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAppUITests.swift; sourceTree = "<group>"; };
 		FADA947328167623008BDA5B /* LearnAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FADA94802816992C008BDA5B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FADA94842817D785008BDA5B /* ReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionView.swift; sourceTree = "<group>"; };
+		FADA94862817EDF3008BDA5B /* ReflectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionDetailView.swift; sourceTree = "<group>"; };
+		FADA94882817EE24008BDA5B /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA75DA7128185BF50098CE95 /* Refleksi */ = {
+			isa = PBXGroup;
+			children = (
+				FADA94842817D785008BDA5B /* ReflectionView.swift */,
+				FADA94862817EDF3008BDA5B /* ReflectionDetailView.swift */,
+				FA75DA6F28183C490098CE95 /* ReflectionDetailAddView.swift */,
+				FA75DA6B2817FF9D0098CE95 /* Reflection.swift */,
+			);
+			path = Refleksi;
+			sourceTree = "<group>";
+		};
+		FA75DA7228185C0E0098CE95 /* Timer(Pomodoro) */ = {
+			isa = PBXGroup;
+			children = (
+				FADA94802816992C008BDA5B /* File.swift */,
+				FADA945828167621008BDA5B /* ContentView.swift */,
+			);
+			path = "Timer(Pomodoro)";
+			sourceTree = "<group>";
+		};
+		FA75DA7B281AF1A90098CE95 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				FA75DA77281863060098CE95 /* DatePicker.swift */,
+				FA75DA792818FE280098CE95 /* Task.swift */,
+				FA75DA7C281AF1EA0098CE95 /* TaskDetailView.swift */,
+				FA75DA7E281AF2170098CE95 /* TaskDetailAddView.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
 		FADA944A28167621008BDA5B = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +151,14 @@
 		FADA945528167621008BDA5B /* LearnApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA75DA7228185C0E0098CE95 /* Timer(Pomodoro) */,
+				FA75DA7128185BF50098CE95 /* Refleksi */,
+				FA75DA7B281AF1A90098CE95 /* Task */,
+				FA75DA7328185C340098CE95 /* HomeScreenPage.swift */,
+				FA75DA75281862A60098CE95 /* TaskListView.swift */,
 				FADA945628167621008BDA5B /* LearnAppApp.swift */,
-				FADA945828167621008BDA5B /* ContentView.swift */,
+				FADA94882817EE24008BDA5B /* struct.swift */,
+				FA75DA6D2818324D0098CE95 /* Storyboard.storyboard */,
 				FADA945A28167623008BDA5B /* Assets.xcassets */,
 				FADA945C28167623008BDA5B /* Preview Content */,
 			);
@@ -233,6 +296,7 @@
 			files = (
 				FADA945E28167623008BDA5B /* Preview Assets.xcassets in Resources */,
 				FADA945B28167623008BDA5B /* Assets.xcassets in Resources */,
+				FA75DA6E2818324D0098CE95 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +321,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA75DA7D281AF1EA0098CE95 /* TaskDetailView.swift in Sources */,
+				FADA94892817EE24008BDA5B /* struct.swift in Sources */,
 				FADA945928167621008BDA5B /* ContentView.swift in Sources */,
+				FADA94852817D785008BDA5B /* ReflectionView.swift in Sources */,
+				FA75DA7028183C490098CE95 /* ReflectionDetailAddView.swift in Sources */,
+				FA75DA7A2818FE280098CE95 /* Task.swift in Sources */,
+				FA75DA7F281AF2170098CE95 /* TaskDetailAddView.swift in Sources */,
+				FA75DA7428185C340098CE95 /* HomeScreenPage.swift in Sources */,
+				FA75DA6C2817FF9D0098CE95 /* Reflection.swift in Sources */,
+				FADA94812816992C008BDA5B /* File.swift in Sources */,
+				FA75DA78281863060098CE95 /* DatePicker.swift in Sources */,
+				FA75DA76281862A60098CE95 /* TaskListView.swift in Sources */,
 				FADA945728167621008BDA5B /* LearnAppApp.swift in Sources */,
+				FADA94872817EDF3008BDA5B /* ReflectionDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
